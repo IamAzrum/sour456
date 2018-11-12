@@ -1,0 +1,38 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(39, 139, 244, 0);
+    font-size: 1.1rem;
+    padding: 10px;
+  
+    .logo {
+      padding: .5rem;
+      margin-left: 350px;
+      cursor: pointer;
+    }
+  
+    .links {
+      height: 100%;
+    }
+  
+    button {
+      background: rgba(0, 0, 0, 0);
+      border: none;
+      color: white;
+      height: 100%;
+      padding: 1.125em;
+      position: relative;
+      transition-duration: 0.3s;
+      
+      &:hover{
+        background-color: rgb(1, 173, 171);
+        cursor: pointer;
+      }
+
+      panel{
+          background-image: image(AMB_Episode_7)
+      }
+    }
+  }
+  
