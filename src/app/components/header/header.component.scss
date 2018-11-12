@@ -1,14 +1,14 @@
-.container {
+.w3-container {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    
     background-color: rgba(39, 139, 244, 0);
     font-size: 1.1rem;
     padding: 10px;
   
     .logo {
       padding: .5rem;
-      margin-left: 250px;
+      margin-left: 150px;
       cursor: pointer;
     }
   
@@ -28,10 +28,6 @@
       &:hover{
         background-color: rgb(1, 173, 171);
         cursor: pointer;
-      }
-
-      panel{
-          background-image: image(AMB_Episode_7)
       }
     }
   }
