@@ -5,55 +5,59 @@
   background-image:url('http://www.sour456.com/photos/HLP AoC Snap.png');
   background-position:50% 50%;
 }
-.header {
-    display: flex;
-    justify-content: space-between;
-    
-    background-color: rgba(39, 139, 244, 0);
-    font-size: 1.1rem;
-    padding: 20px;
 
-    .w3-input {
-      padding: 8px;
-      display: inline-block;
-      border: none;
-      border-bottom: 1px solid #808080;
-      width: 100%;
-    } 
+.header {
+  display: flex;
+  justify-content: space-between;
   
-    .logo {
-      padding: .5rem;
-      margin-left: 150px;
-      cursor: pointer;
-    }
+  background-color: rgba(39, 139, 244, 0);
+  font-size: 1.1rem;
+  padding: 20px;
+}
+
+.w3-input {
+  padding: 8px;
+  display: inline-block;
+  border: none;
+  border-bottom: 1px solid #808080;
+  width: 100%;
+} 
+
+.logo {
+  padding: .5rem;
+  margin-left: 150px;
+  cursor: pointer;
+}
+
+.links {
+  height: 100%;
+}
+
+button {
+  background: rgba(0, 0, 0, 0);
+  border: none;
+  color: white;
+  height: 100%;
+  padding: 1.125em;
+  position: relative;
+  transition-duration: 0.3s;
   
-    .links {
-      height: 100%;
-    }
-  
-    button {
-      background: rgba(0, 0, 0, 0);
-      border: none;
-      color: white;
-      height: 100%;
-      padding: 1.125em;
-      position: relative;
-      transition-duration: 0.3s;
-      
-      &:hover{
-        background-color: white;
-        cursor: pointer;
-      }
-/* The sticky class is added to the header with JS when it reaches its scroll position */
+  &:hover{
+    background-color: white;
+    cursor: pointer;
+  }
+}
+
+.content {
+  padding: 0px;
+}
+
 .sticky {
   position: fixed;
   top: 0;
-  width: 100%
+  width: 100%;
 }
 
-/* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
 .sticky + .content {
   padding-top: 102px;
-    }
-  }
 }
