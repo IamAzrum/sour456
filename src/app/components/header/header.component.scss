@@ -1,4 +1,11 @@
-.w3-container {
+.image{
+  height:80em; 
+  background-size:cover;
+  width:auto;
+  background-image:url('https://cdn.discordapp.com/attachments/511401744417423400/511408189498195969/HLP_AoC_Snap.png');
+  background-position:50% 50%;
+}
+.header {
     display: flex;
     justify-content: space-between;
     
@@ -8,7 +15,7 @@
   
     .logo {
       padding: .5rem;
-      margin-left: 150px;
+      margin-left: 250px;
       cursor: pointer;
     }
   
@@ -26,9 +33,20 @@
       transition-duration: 0.3s;
       
       &:hover{
-        background-color: rgb(1, 173, 171);
+        background-color: white;
         cursor: pointer;
       }
+/* The sticky class is added to the header with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 102px;
     }
   }
-  
+}
+ 
