@@ -1,0 +1,29 @@
+.image{
+    height:80em; 
+    background-image:url('https://sour456.com/photos/Ancient%20Magus%20Bride%20Episode%203.png');
+    background-position:50% 50%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    
+    
+    
+
+  }
+th, td {
+    border: 2px solid white;
+    text-align: center;
+    
+
+    
+}
+
+
+table.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+  }
