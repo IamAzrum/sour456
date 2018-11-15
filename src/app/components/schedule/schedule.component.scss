@@ -1,11 +1,9 @@
 .image{
-    height:95em; 
-    background-image:url('https://sour456.com/photos/HLPF%20Ikaros.png');
+    height:80em; 
+    background-size:cover;
+    width:auto; 
+    background-image:url('https://sour456.com/photos/HLPF-Ikaros-1.png');
     background-position:50% 50%;
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-attachment: fixed;
-    
     
     
 
@@ -25,6 +23,7 @@ table.center {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    margin-top: 140px;
     
   }
   h1 {
